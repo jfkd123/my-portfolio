@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+  <meta
+    name="description"
+    content="GitHub Pages-ready developer portfolio with bilingual content, project highlights, and contact links."
+  >
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="brand-block">
+      <a class="brand-mark" href="#hero" aria-label="Go to top">YK</a>
+      <div class="brand-copy">
+        <p class="eyebrow" data-i18n="header.eyebrow"></p>
+        <p class="brand-title" data-i18n="header.title"></p>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#about" data-nav="about" data-i18n="nav.about"></a>
+      <a href="#skills" data-nav="skills" data-i18n="nav.skills"></a>
+      <a href="#projects" data-nav="projects" data-i18n="nav.projects"></a>
+      <a href="#experience" data-nav="experience" data-i18n="nav.experience"></a>
+      <a href="#contact" data-nav="contact" data-i18n="nav.contact"></a>
+    </nav>
+
+    <button class="language-toggle" type="button" aria-live="polite">
+      <span class="language-toggle__label" data-i18n="language.label"></span>
+      <span class="language-toggle__value" data-language-value>EN</span>
+    </button>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section reveal is-visible" id="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+        <h1 data-i18n="hero.title"></h1>
+        <p class="hero-summary" data-i18n="hero.summary"></p>
+
+        <div class="hero-metrics">
+          <article>
+            <span data-i18n="hero.metric1Label"></span>
+            <strong data-i18n="hero.metric1Value"></strong>
+          </article>
+          <article>
+            <span data-i18n="hero.metric2Label"></span>
+            <strong data-i18n="hero.metric2Value"></strong>
+          </article>
+          <article>
+            <span data-i18n="hero.metric3Label"></span>
+            <strong data-i18n="hero.metric3Value"></strong>
+          </article>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects" data-i18n="hero.primaryAction"></a>
+          <a class="button button-secondary" href="#contact" data-i18n="hero.secondaryAction"></a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Profile highlights">
+        <div class="hero-panel__card">
+          <p class="hero-panel__title" data-i18n="hero.cardTitle"></p>
+          <ul class="hero-panel__list">
+            <li data-i18n="hero.cardLine1"></li>
+            <li data-i18n="hero.cardLine2"></li>
+            <li data-i18n="hero.cardLine3"></li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section reveal" id="about">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="about.eyebrow"></p>
+        <h2 data-i18n="about.title"></h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="panel">
+          <p data-i18n="about.body"></p>
+        </article>
+        <article class="panel detail-list">
+          <div>
+            <span data-i18n="about.focusLabel"></span>
+            <strong data-i18n="about.focusValue"></strong>
+          </div>
+          <div>
+            <span data-i18n="about.workflowLabel"></span>
+            <strong data-i18n="about.workflowValue"></strong>
+          </div>
+          <div>
+            <span data-i18n="about.goalLabel"></span>
+            <strong data-i18n="about.goalValue"></strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="skills.eyebrow"></p>
+        <h2 data-i18n="skills.title"></h2>
+        <p data-i18n="skills.summary"></p>
+      </div>
+      <div class="skill-groups" data-skill-groups></div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="projects.eyebrow"></p>
+        <h2 data-i18n="projects.title"></h2>
+        <p data-i18n="projects.summary"></p>
+      </div>
+      <div class="project-grid" data-project-grid></div>
+    </section>
+
+    <section class="section reveal" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="experience.eyebrow"></p>
+        <h2 data-i18n="experience.title"></h2>
+        <p data-i18n="experience.summary"></p>
+      </div>
+      <div class="timeline" data-timeline></div>
+    </section>
+
+    <section class="section reveal" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="contact.eyebrow"></p>
+        <h2 data-i18n="contact.title"></h2>
+        <p data-i18n="contact.summary"></p>
+      </div>
+
+      <div class="contact-panel panel">
+        <div class="contact-copy">
+          <p data-i18n="contact.body"></p>
+        </div>
+        <div class="contact-links" data-contact-links></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer.copy"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

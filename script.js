@@ -2,79 +2,79 @@ const storageKey = "portfolio-language";
 
 const content = {
   ko: {
-    pageTitle: "±è¿¹½Ã | °³¹ßÀÚ Æ÷Æ®Æú¸®¿À",
+    pageTitle: "ê¹€ì˜ˆì‹œ | ê°œë°œì í¬íŠ¸í´ë¦¬ì˜¤",
     nav: {
-      about: "¼Ò°³",
-      skills: "±â¼ú",
-      projects: "ÇÁ·ÎÁ§Æ®",
-      experience: "°æÇè",
-      contact: "¿¬¶ô"
+      about: "ì†Œê°œ",
+      skills: "ê¸°ìˆ ",
+      projects: "í”„ë¡œì íŠ¸",
+      experience: "ê²½í—˜",
+      contact: "ì—°ë½"
     },
     header: {
       eyebrow: "GitHub Pages Portfolio",
-      title: "Frontend ¡¤ Full Stack Developer"
+      title: "Frontend - Full Stack Developer"
     },
     language: {
       label: "Language",
       value: "EN"
     },
     hero: {
-      eyebrow: "½Å·Ú °¡´ÉÇÑ Á¦Ç° °æÇèÀ» ¸¸µå´Â °³¹ßÀÚ",
-      title: "¹®Á¦¸¦ ±¸Á¶È­ÇÏ°í, ºü¸£°Ô ±¸ÇöÇÏ°í, º¸±â ÁÁ°Ô Á¤¸®ÇÕ´Ï´Ù.",
+      eyebrow: "ì‹ ë¢° ê°€ëŠ¥í•œ ì œí’ˆ ê²½í—˜ì„ ë§Œë“œëŠ” ê°œë°œì",
+      title: "ë¬¸ì œë¥¼ êµ¬ì¡°í™”í•˜ê³ , ë¹ ë¥´ê²Œ êµ¬í˜„í•˜ê³ , ë³´ê¸° ì¢‹ê²Œ ì •ë¦¬í•©ë‹ˆë‹¤.",
       summary:
-        "»ç¿ëÀÚ Èå¸§À» ¸ÕÀú ÀÌÇØÇÏ°í, ¸íÈ®ÇÑ ÀÎÅÍÆäÀÌ½º¿Í ¾ÈÁ¤ÀûÀÎ ÇÁ·ĞÆ®¿£µå ±¸Á¶·Î Á¦Ç° ¿Ï¼ºµµ¸¦ ²ø¾î¿Ã¸®´Â °³¹ßÀÚ¸¦ ¼Ò°³ÇÕ´Ï´Ù.",
-      metric1Label: "ÁÖ¿ä ºĞ¾ß",
-      metric1Value: "À¥ ÇÁ·ĞÆ®¿£µå",
-      metric2Label: "Çù¾÷ ¹æ½Ä",
-      metric2Value: "±âÈ¹-µğÀÚÀÎ-°³¹ß ¿¬°á",
-      metric3Label: "°ü½É»ç",
-      metric3Value: "»ç¿ë¼º, ¼º´É, À¯Áöº¸¼ö¼º",
-      primaryAction: "ÇÁ·ÎÁ§Æ® º¸±â",
-      secondaryAction: "¿¬¶ôÃ³ º¸±â",
-      cardTitle: "ÇöÀç Æ÷Áö¼Å´×",
-      cardLine1: "Á¦Ç° Ç°Áú°ú Çù¾÷ È¿À²À» ÇÔ²² Ã¬±â´Â °³¹ßÀÚ",
-      cardLine2: "Á¤Àû »çÀÌÆ®ºÎÅÍ SPA±îÁö ºü¸£°Ô ±¸Ãà °¡´ÉÇÑ ½ÇÀüÇü ¿ª·®",
-      cardLine3: "ÇÙ½É Á¤º¸°¡ Àß º¸ÀÌ´Â Ã¤¿ë Ä£È­Çü Æ÷Æ®Æú¸®¿À ±¸¼º"
+        "ì‚¬ìš©ì íë¦„ì„ ë¨¼ì € ì´í•´í•˜ê³ , ëª…í™•í•œ ì¸í„°í˜ì´ìŠ¤ì™€ ì•ˆì •ì ì¸ í”„ë¡ íŠ¸ì—”ë“œ êµ¬ì¡°ë¡œ ì œí’ˆ ì™„ì„±ë„ë¥¼ ëŒì–´ì˜¬ë¦¬ëŠ” ê°œë°œìë¥¼ ì†Œê°œí•©ë‹ˆë‹¤.",
+      metric1Label: "ì£¼ìš” ë¶„ì•¼",
+      metric1Value: "ì›¹ í”„ë¡ íŠ¸ì—”ë“œ",
+      metric2Label: "í˜‘ì—… ë°©ì‹",
+      metric2Value: "ê¸°íš-ë””ìì¸-ê°œë°œ ì—°ê²°",
+      metric3Label: "ê´€ì‹¬ì‚¬",
+      metric3Value: "ì‚¬ìš©ì„±, ì„±ëŠ¥, ìœ ì§€ë³´ìˆ˜ì„±",
+      primaryAction: "í”„ë¡œì íŠ¸ ë³´ê¸°",
+      secondaryAction: "ì—°ë½ì²˜ ë³´ê¸°",
+      cardTitle: "í˜„ì¬ í¬ì§€ì…”ë‹",
+      cardLine1: "ì œí’ˆ í’ˆì§ˆê³¼ í˜‘ì—… íš¨ìœ¨ì„ í•¨ê»˜ ì±™ê¸°ëŠ” ê°œë°œì",
+      cardLine2: "ì •ì  ì‚¬ì´íŠ¸ë¶€í„° SPAê¹Œì§€ ë¹ ë¥´ê²Œ êµ¬ì¶• ê°€ëŠ¥í•œ ì‹¤ì „í˜• ì—­ëŸ‰",
+      cardLine3: "í•µì‹¬ ì •ë³´ê°€ ì˜ ë³´ì´ëŠ” ì±„ìš© ì¹œí™”í˜• í¬íŠ¸í´ë¦¬ì˜¤ êµ¬ì„±"
     },
     about: {
       eyebrow: "About",
-      title: "Á¦Ç°ÀÇ ¸Æ¶ôÀ» ÀÌÇØÇÏ°í ±¸ÇöÇÏ´Â °³¹ßÀÚÀÔ´Ï´Ù.",
+      title: "ì œí’ˆì˜ ë§¥ë½ì„ ì´í•´í•˜ê³  êµ¬í˜„í•˜ëŠ” ê°œë°œìì…ë‹ˆë‹¤.",
       body:
-        "Àú´Â ´Ü¼øÈ÷ È­¸éÀ» ¸¸µå´Â µ¥¼­ ±×Ä¡Áö ¾Ê°í, »ç¿ëÀÚ°¡ ¾î¶² ¸ñÇ¥¸¦ °¡Áö°í ¼­ºñ½º¸¦ ÀÌ¿ëÇÏ´ÂÁöºÎÅÍ ÆÄ¾ÇÇÕ´Ï´Ù. ±× À§¿¡ ¼³°è ÀÇµµ¸¦ ÇØÄ¡Áö ¾Ê´Â UI, ¸íÈ®ÇÑ ÄÄÆ÷³ÍÆ® ±¸Á¶, ÀÌÈÄ È®Àå °¡´ÉÇÑ ÇÁ·ĞÆ®¿£µå ±â¹İÀ» ½×´Â ÀÏÀ» ÁÁ¾ÆÇÕ´Ï´Ù.",
-      focusLabel: "ÁıÁßÇÏ´Â ¿µ¿ª",
-      focusValue: "UI ±¸Çö, Á¤º¸ ±¸Á¶È­, DX °³¼±",
-      workflowLabel: "¼±È£ÇÏ´Â ÀÛ¾÷ ¹æ½Ä",
-      workflowValue: "ÂªÀº ¹İº¹ ÁÖ±â, ºü¸¥ °ËÁõ, ¸íÈ®ÇÑ ¹®¼­È­",
-      goalLabel: "ÇöÀç ¸ñÇ¥",
-      goalValue: "¿Ï¼ºµµ ³ôÀº Á¦Ç° °æÇèÀ» ¸¸µå´Â ÆÀ¿¡ ÇÕ·ù"
+        "ì €ëŠ” ë‹¨ìˆœíˆ í™”ë©´ì„ ë§Œë“œëŠ” ë°ì„œ ê·¸ì¹˜ì§€ ì•Šê³ , ì‚¬ìš©ìê°€ ì–´ë–¤ ëª©í‘œë¥¼ ê°€ì§€ê³  ì„œë¹„ìŠ¤ë¥¼ ì´ìš©í•˜ëŠ”ì§€ë¶€í„° íŒŒì•…í•©ë‹ˆë‹¤. ê·¸ ìœ„ì— ì„¤ê³„ ì˜ë„ë¥¼ í•´ì¹˜ì§€ ì•ŠëŠ” UI, ëª…í™•í•œ ì»´í¬ë„ŒíŠ¸ êµ¬ì¡°, ì´í›„ í™•ì¥ ê°€ëŠ¥í•œ í”„ë¡ íŠ¸ì—”ë“œ ê¸°ë°˜ì„ ìŒ“ëŠ” ì¼ì„ ì¢‹ì•„í•©ë‹ˆë‹¤.",
+      focusLabel: "ì§‘ì¤‘í•˜ëŠ” ì˜ì—­",
+      focusValue: "UI êµ¬í˜„, ì •ë³´ êµ¬ì¡°í™”, DX ê°œì„ ",
+      workflowLabel: "ì„ í˜¸í•˜ëŠ” ì‘ì—… ë°©ì‹",
+      workflowValue: "ì§§ì€ ë°˜ë³µ ì£¼ê¸°, ë¹ ë¥¸ ê²€ì¦, ëª…í™•í•œ ë¬¸ì„œí™”",
+      goalLabel: "í˜„ì¬ ëª©í‘œ",
+      goalValue: "ì™„ì„±ë„ ë†’ì€ ì œí’ˆ ê²½í—˜ì„ ë§Œë“œëŠ” íŒ€ì— í•©ë¥˜"
     },
     skills: {
       eyebrow: "Skills",
-      title: "¹Ù·Î ±â¿©ÇÒ ¼ö ÀÖ´Â ±â¼ú Á¶ÇÕ",
-      summary: "½Ç¹«¿¡¼­ ÀÚÁÖ ÇÔ²² ¾²ÀÌ´Â ±â¼úµéÀ» Áß½ÉÀ¸·Î Á¤¸®Çß½À´Ï´Ù."
+      title: "ë°”ë¡œ ê¸°ì—¬í•  ìˆ˜ ìˆëŠ” ê¸°ìˆ  ì¡°í•©",
+      summary: "ì‹¤ë¬´ì—ì„œ ìì£¼ í•¨ê»˜ ì“°ì´ëŠ” ê¸°ìˆ ë“¤ì„ ì¤‘ì‹¬ìœ¼ë¡œ ì •ë¦¬í–ˆìŠµë‹ˆë‹¤."
     },
     projects: {
       eyebrow: "Projects",
-      title: "¹®Á¦ ÇØ°á ¹æ½ÄÀÌ µå·¯³ª´Â ÇÁ·ÎÁ§Æ®",
-      summary: "¿ªÇÒ, ±â¼ú ½ºÅÃ, ÇÙ½É ±â¿©¸¦ ºü¸£°Ô ÀĞÀ» ¼ö ÀÖµµ·Ï Ä«µåÇüÀ¸·Î ±¸¼ºÇß½À´Ï´Ù.",
+      title: "ë¬¸ì œ í•´ê²° ë°©ì‹ì´ ë“œëŸ¬ë‚˜ëŠ” í”„ë¡œì íŠ¸",
+      summary: "ì—­í• , ê¸°ìˆ  ìŠ¤íƒ, í•µì‹¬ ê¸°ì—¬ë¥¼ ë¹ ë¥´ê²Œ ì½ì„ ìˆ˜ ìˆë„ë¡ ì¹´ë“œí˜•ìœ¼ë¡œ êµ¬ì„±í–ˆìŠµë‹ˆë‹¤.",
       demo: "Demo",
       repo: "Repo",
-      highlightsLabel: "ÇÙ½É ±â¿©"
+      highlightsLabel: "í•µì‹¬ ê¸°ì—¬"
     },
     experience: {
       eyebrow: "Experience",
-      title: "¼ºÀå Èå¸§ÀÌ º¸ÀÌ´Â °æÇè",
-      summary: "½Ç¹«, Çù¾÷, ÇĞ½À °æÇèÀ» ½Ã°£ Èå¸§¿¡ ¸ÂÃç ¿ä¾àÇß½À´Ï´Ù."
+      title: "ì„±ì¥ íë¦„ì´ ë³´ì´ëŠ” ê²½í—˜",
+      summary: "ì‹¤ë¬´, í˜‘ì—…, í•™ìŠµ ê²½í—˜ì„ ì‹œê°„ íë¦„ì— ë§ì¶° ìš”ì•½í–ˆìŠµë‹ˆë‹¤."
     },
     contact: {
       eyebrow: "Contact",
-      title: "ÇÔ²² ÀÏÇÒ ±âÈ¸¸¦ ±â´Ù¸®°í ÀÖ½À´Ï´Ù.",
-      summary: "ÇÁ·ÎÁ§Æ® Á¦¾È, ÀÎÅÍºä, Çù¾÷ ¹®ÀÇ´Â ¾Æ·¡ Ã¤³Î·Î ÆíÇÏ°Ô ¿¬¶ô ÁÖ¼¼¿ä.",
+      title: "í•¨ê»˜ ì¼í•  ê¸°íšŒë¥¼ ê¸°ë‹¤ë¦¬ê³  ìˆìŠµë‹ˆë‹¤.",
+      summary: "í”„ë¡œì íŠ¸ ì œì•ˆ, ì¸í„°ë·°, í˜‘ì—… ë¬¸ì˜ëŠ” ì•„ë˜ ì±„ë„ë¡œ í¸í•˜ê²Œ ì—°ë½ ì£¼ì„¸ìš”.",
       body:
-        "ÇöÀç ÀÌ Æ÷Æ®Æú¸®¿À´Â GitHub Pages¿¡ ¹èÆ÷ °¡´ÉÇÑ Á¤Àû ±¸Á¶·Î ¼³°èµÇ¾î ÀÖ¾î ºü¸¥ ¾÷µ¥ÀÌÆ®¿Í À¯Áöº¸¼ö°¡ ½±½À´Ï´Ù. ½ÇÁ¦ Áö¿ø¿ëÀ¸·Î »ç¿ëÇÒ ¶§´Â ¾Æ·¡ ¸µÅ©¸¸ ±³Ã¼ÇÏ¸é µË´Ï´Ù."
+        "í˜„ì¬ ì´ í¬íŠ¸í´ë¦¬ì˜¤ëŠ” GitHub Pagesì— ë°°í¬ ê°€ëŠ¥í•œ ì •ì  êµ¬ì¡°ë¡œ ì„¤ê³„ë˜ì–´ ìˆì–´ ë¹ ë¥¸ ì—…ë°ì´íŠ¸ì™€ ìœ ì§€ë³´ìˆ˜ê°€ ì‰½ìŠµë‹ˆë‹¤. ì‹¤ì œ ì§€ì›ìš©ìœ¼ë¡œ ì‚¬ìš©í•  ë•ŒëŠ” ì•„ë˜ ë§í¬ë§Œ êµì²´í•˜ë©´ ë©ë‹ˆë‹¤."
     },
     footer: {
-      copy: "¨Ï 2026 Your Name. GitHub Pages¿¡ ¹Ù·Î ¹èÆ÷ÇÒ ¼ö ÀÖµµ·Ï ¸¸µç Á¤Àû Æ÷Æ®Æú¸®¿À ÅÛÇÃ¸´ÀÔ´Ï´Ù."
+      copy: "(c) 2026 Your Name. GitHub Pagesì— ë°”ë¡œ ë°°í¬í•  ìˆ˜ ìˆë„ë¡ ë§Œë“  ì •ì  í¬íŠ¸í´ë¦¬ì˜¤ í…œí”Œë¦¿ì…ë‹ˆë‹¤."
     }
   },
   en: {
@@ -88,7 +88,7 @@ const content = {
     },
     header: {
       eyebrow: "GitHub Pages Portfolio",
-      title: "Frontend ¡¤ Full Stack Developer"
+      title: "Frontend - Full Stack Developer"
     },
     language: {
       label: "Language",
@@ -150,7 +150,7 @@ const content = {
         "This portfolio is intentionally built as a GitHub Pages-ready static site, so updating content and redeploying stays simple. For real usage, replace the sample links below with your own."
     },
     footer: {
-      copy: "¨Ï 2026 Your Name. A static portfolio template designed for fast GitHub Pages deployment."
+      copy: "(c) 2026 Your Name. A static portfolio template designed for fast GitHub Pages deployment."
     }
   }
 };
@@ -159,7 +159,7 @@ const skillGroups = [
   {
     title: { ko: "Frontend", en: "Frontend" },
     summary: {
-      ko: "ÀÎÅÍ·¢¼Ç°ú ¹İÀÀÇü ·¹ÀÌ¾Æ¿ôÀ» ¾ÈÁ¤ÀûÀ¸·Î ±¸ÇöÇÏ´Â µ¥ »ç¿ëÇÏ´Â ±â¼úÀÔ´Ï´Ù.",
+      ko: "ì¸í„°ë™ì…˜ê³¼ ë°˜ì‘í˜• ë ˆì´ì•„ì›ƒì„ ì•ˆì •ì ìœ¼ë¡œ êµ¬í˜„í•˜ëŠ” ë° ì‚¬ìš©í•˜ëŠ” ê¸°ìˆ ì…ë‹ˆë‹¤.",
       en: "Technologies I use to build reliable interfaces, interactions, and responsive layouts."
     },
     tags: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Vite"]
@@ -167,7 +167,7 @@ const skillGroups = [
   {
     title: { ko: "Product Engineering", en: "Product Engineering" },
     summary: {
-      ko: "±âÈ¹ ÀÇµµ¸¦ ±¸ÇöÀ¸·Î ¿¬°áÇÏ°í Ç°ÁúÀ» ³ôÀÌ´Â µ¥ ÇÊ¿äÇÑ µµ±¸µéÀÔ´Ï´Ù.",
+      ko: "ê¸°íš ì˜ë„ë¥¼ êµ¬í˜„ìœ¼ë¡œ ì—°ê²°í•˜ê³  í’ˆì§ˆì„ ë†’ì´ëŠ” ë° í•„ìš”í•œ ë„êµ¬ë“¤ì…ë‹ˆë‹¤.",
       en: "Tools that help turn product intent into shipped experiences with strong quality."
     },
     tags: ["REST API", "State Management", "Accessibility", "Performance", "Design Systems"]
@@ -175,7 +175,7 @@ const skillGroups = [
   {
     title: { ko: "Collaboration", en: "Collaboration" },
     summary: {
-      ko: "ÆÀ Ä¿¹Â´ÏÄÉÀÌ¼Ç°ú ¹èÆ÷ Èå¸§À» ¿øÈ°ÇÏ°Ô ¸¸µå´Â Çù¾÷ ±â¹İÀÔ´Ï´Ù.",
+      ko: "íŒ€ ì»¤ë®¤ë‹ˆì¼€ì´ì…˜ê³¼ ë°°í¬ íë¦„ì„ ì›í™œí•˜ê²Œ ë§Œë“œëŠ” í˜‘ì—… ê¸°ë°˜ì…ë‹ˆë‹¤.",
       en: "A collaboration toolset for smoother teamwork, reviews, and shipping."
     },
     tags: ["GitHub", "Figma", "Notion", "Linear", "GitHub Pages", "CI/CD"]
@@ -186,23 +186,23 @@ const projects = [
   {
     title: "LaunchPad",
     subtitle: {
-      ko: "Ã¤¿ë °ø°í Å½»ö °æÇèÀ» Àç¼³°èÇÑ ÇÁ·ĞÆ®¿£µå ÇÁ·ÎÁ§Æ®",
+      ko: "ì±„ìš© ê³µê³  íƒìƒ‰ ê²½í—˜ì„ ì¬ì„¤ê³„í•œ í”„ë¡ íŠ¸ì—”ë“œ í”„ë¡œì íŠ¸",
       en: "A frontend project that redesigned the job discovery experience"
     },
     description: {
-      ko: "º¹ÀâÇÑ Å½»ö Èå¸§À» ÇÊÅÍ Áß½É ÀÎÅÍÆäÀÌ½º·Î ÀçÁ¤¸®ÇØ »ç¿ëÀÚ°¡ ´õ ºü¸£°Ô °ø°í¸¦ ºñ±³ÇÒ ¼ö ÀÖ°Ô ¸¸µé¾ú½À´Ï´Ù.",
+      ko: "ë³µì¡í•œ íƒìƒ‰ íë¦„ì„ í•„í„° ì¤‘ì‹¬ ì¸í„°í˜ì´ìŠ¤ë¡œ ì¬ì •ë¦¬í•´ ì‚¬ìš©ìê°€ ë” ë¹ ë¥´ê²Œ ê³µê³ ë¥¼ ë¹„êµí•  ìˆ˜ ìˆê²Œ ë§Œë“¤ì—ˆìŠµë‹ˆë‹¤.",
       en: "I reorganized a cluttered exploration flow into a filter-driven interface so users could compare roles much faster."
     },
     techStack: ["React", "TypeScript", "CSS Modules", "REST API"],
     role: {
-      ko: "ÇÁ·ĞÆ®¿£µå °³¹ß",
+      ko: "í”„ë¡ íŠ¸ì—”ë“œ ê°œë°œ",
       en: "Frontend Developer"
     },
     highlights: {
       ko: [
-        "°Ë»ö, ÇÊÅÍ, Á¤·Ä »óÅÂ¸¦ ÀÏ°üµÇ°Ô °ü¸®ÇÏ´Â UI ±¸Á¶ ¼³°è",
-        "Ä«µå Á¤º¸ ¹Ğµµ¸¦ Á¶Á¤ÇØ ÇÑ È­¸é¿¡¼­ ´õ ¸¹Àº Ã¤¿ë Á¤º¸¸¦ ÀĞÀ» ¼ö ÀÖµµ·Ï °³¼±",
-        "¹İÀÀÇü ·¹ÀÌ¾Æ¿ô ÃÖÀûÈ­·Î ¸ğ¹ÙÀÏ ÀÌÅ»·ü °¨¼Ò¿¡ ±â¿©"
+        "ê²€ìƒ‰, í•„í„°, ì •ë ¬ ìƒíƒœë¥¼ ì¼ê´€ë˜ê²Œ ê´€ë¦¬í•˜ëŠ” UI êµ¬ì¡° ì„¤ê³„",
+        "ì¹´ë“œ ì •ë³´ ë°€ë„ë¥¼ ì¡°ì •í•´ í•œ í™”ë©´ì—ì„œ ë” ë§ì€ ì±„ìš© ì •ë³´ë¥¼ ì½ì„ ìˆ˜ ìˆë„ë¡ ê°œì„ ",
+        "ë°˜ì‘í˜• ë ˆì´ì•„ì›ƒ ìµœì í™”ë¡œ ëª¨ë°”ì¼ ì´íƒˆë¥  ê°ì†Œì— ê¸°ì—¬"
       ],
       en: [
         "Designed a UI structure that kept search, filter, and sort state consistent",
@@ -216,23 +216,23 @@ const projects = [
   {
     title: "Studio Flow",
     subtitle: {
-      ko: "ÄÜÅÙÃ÷ ¿î¿µÆÀÀ» À§ÇÑ ³»ºÎ ´ë½Ãº¸µå ±¸Ãà",
+      ko: "ì½˜í…ì¸  ìš´ì˜íŒ€ì„ ìœ„í•œ ë‚´ë¶€ ëŒ€ì‹œë³´ë“œ êµ¬ì¶•",
       en: "An internal dashboard for a content operations team"
     },
     description: {
-      ko: "¾÷¹« »óÅÂ¸¦ ºü¸£°Ô ÆÄ¾ÇÇÒ ¼ö ÀÖ´Â ´ë½Ãº¸µå¸¦ ¼³°èÇØ ¿î¿µÆÀÀÇ ¹İº¹ Ä¿¹Â´ÏÄÉÀÌ¼Ç ºñ¿ëÀ» ÁÙ¿´½À´Ï´Ù.",
+      ko: "ì—…ë¬´ ìƒíƒœë¥¼ ë¹ ë¥´ê²Œ íŒŒì•…í•  ìˆ˜ ìˆëŠ” ëŒ€ì‹œë³´ë“œë¥¼ ì„¤ê³„í•´ ìš´ì˜íŒ€ì˜ ë°˜ë³µ ì»¤ë®¤ë‹ˆì¼€ì´ì…˜ ë¹„ìš©ì„ ì¤„ì˜€ìŠµë‹ˆë‹¤.",
       en: "Built a dashboard that reduced repetitive communication overhead by making team status visible at a glance."
     },
     techStack: ["JavaScript", "Chart.js", "Node.js", "Express"],
     role: {
-      ko: "Ç®½ºÅÃ °³¹ß",
+      ko: "í’€ìŠ¤íƒ ê°œë°œ",
       en: "Full Stack Developer"
     },
     highlights: {
       ko: [
-        "ÁöÇ¥ ¿ä¾à, »ó¼¼ Å×ÀÌºí, »óÅÂ ¾÷µ¥ÀÌÆ® Èå¸§À» ÇÑ È­¸éÀ¸·Î ÅëÇÕ",
-        "¹é¿£µå API ÀÀ´ä ±¸Á¶¸¦ ´Ü¼øÈ­ÇØ ÇÁ·ĞÆ®¿£µå ·»´õ¸µ ·ÎÁ÷À» ÁÙÀÓ",
-        "¿î¿µÆÀ ÀÎÅÍºä¸¦ ±â¹İÀ¸·Î ¿ì¼±¼øÀ§ ³ôÀº ±â´ÉºÎÅÍ Á¡ÁøÀûÀ¸·Î ¹èÆ÷"
+        "ì§€í‘œ ìš”ì•½, ìƒì„¸ í…Œì´ë¸”, ìƒíƒœ ì—…ë°ì´íŠ¸ íë¦„ì„ í•œ í™”ë©´ìœ¼ë¡œ í†µí•©",
+        "ë°±ì—”ë“œ API ì‘ë‹µ êµ¬ì¡°ë¥¼ ë‹¨ìˆœí™”í•´ í”„ë¡ íŠ¸ì—”ë“œ ë Œë”ë§ ë¡œì§ì„ ì¤„ì„",
+        "ìš´ì˜íŒ€ ì¸í„°ë·°ë¥¼ ê¸°ë°˜ìœ¼ë¡œ ìš°ì„ ìˆœìœ„ ë†’ì€ ê¸°ëŠ¥ë¶€í„° ì ì§„ì ìœ¼ë¡œ ë°°í¬"
       ],
       en: [
         "Unified metric summaries, detail tables, and status updates into one workspace",
@@ -246,23 +246,23 @@ const projects = [
   {
     title: "Portfolio OS",
     subtitle: {
-      ko: "°³ÀÎ ºê·£µù°ú À¯Áöº¸¼ö¸¦ ÇÔ²² °í·ÁÇÑ Á¤Àû »çÀÌÆ® ½Ã½ºÅÛ",
+      ko: "ê°œì¸ ë¸Œëœë”©ê³¼ ìœ ì§€ë³´ìˆ˜ë¥¼ í•¨ê»˜ ê³ ë ¤í•œ ì •ì  ì‚¬ì´íŠ¸ ì‹œìŠ¤í…œ",
       en: "A static site system designed for both personal branding and maintainability"
     },
     description: {
-      ko: "ÇÁ·ÎÁ§Æ® µ¥ÀÌÅÍ¿Í ÅØ½ºÆ®¸¦ ±¸Á¶È­ÇØ, ³»¿ë¸¸ ¹Ù²Ù¸é »õ·Î¿î Æ÷Æ®Æú¸®¿À¸¦ ºü¸£°Ô ¹èÆ÷ÇÒ ¼ö ÀÖ´Â ÅÛÇÃ¸´À¸·Î ¸¸µé¾ú½À´Ï´Ù.",
+      ko: "í”„ë¡œì íŠ¸ ë°ì´í„°ì™€ í…ìŠ¤íŠ¸ë¥¼ êµ¬ì¡°í™”í•´, ë‚´ìš©ë§Œ ë°”ê¾¸ë©´ ìƒˆë¡œìš´ í¬íŠ¸í´ë¦¬ì˜¤ë¥¼ ë¹ ë¥´ê²Œ ë°°í¬í•  ìˆ˜ ìˆëŠ” í…œí”Œë¦¿ìœ¼ë¡œ ë§Œë“¤ì—ˆìŠµë‹ˆë‹¤.",
       en: "Structured content and project data so a new portfolio could be shipped quickly by swapping only the content."
     },
     techStack: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
     role: {
-      ko: "±âÈ¹ ¡¤ µğÀÚÀÎ ¡¤ °³¹ß",
-      en: "Planning ¡¤ Design ¡¤ Development"
+      ko: "ê¸°íš - ë””ìì¸ - ê°œë°œ",
+      en: "Planning - Design - Development"
     },
     highlights: {
       ko: [
-        "ÇÑ/¿µ Åä±Û°ú Ä«µå µ¥ÀÌÅÍ ·»´õ¸µ ±¸Á¶¸¦ Áß¾Ó °ü¸® ¹æ½ÄÀ¸·Î ¼³°è",
-        "GitHub Pages ÇÁ·ÎÁ§Æ® »çÀÌÆ®¿¡ ¸Â´Â »ó´ë°æ·Î ±â¹İ Á¤Àû ±¸Á¶ Àû¿ë",
-        "½Ã°¢Àû °³¼º°ú Ã¤¿ë Ä£È­¼ºÀ» µ¿½Ã¿¡ °í·ÁÇÑ Á¤º¸ °èÃş ¼³°è"
+        "í•œ/ì˜ í† ê¸€ê³¼ ì¹´ë“œ ë°ì´í„° ë Œë”ë§ êµ¬ì¡°ë¥¼ ì¤‘ì•™ ê´€ë¦¬ ë°©ì‹ìœ¼ë¡œ ì„¤ê³„",
+        "GitHub Pages í”„ë¡œì íŠ¸ ì‚¬ì´íŠ¸ì— ë§ëŠ” ìƒëŒ€ê²½ë¡œ ê¸°ë°˜ ì •ì  êµ¬ì¡° ì ìš©",
+        "ì‹œê°ì  ê°œì„±ê³¼ ì±„ìš© ì¹œí™”ì„±ì„ ë™ì‹œì— ê³ ë ¤í•œ ì •ë³´ ê³„ì¸µ ì„¤ê³„"
       ],
       en: [
         "Built bilingual toggling and card rendering around a single content source",
@@ -279,7 +279,7 @@ const timeline = [
   {
     period: "2025 - Present",
     title: {
-      ko: "ÇÁ·ĞÆ®¿£µå Áß½É °³ÀÎ ÇÁ·ÎÁ§Æ® È®Àå",
+      ko: "í”„ë¡ íŠ¸ì—”ë“œ ì¤‘ì‹¬ ê°œì¸ í”„ë¡œì íŠ¸ í™•ì¥",
       en: "Expanding frontend-focused personal projects"
     },
     organization: {
@@ -288,8 +288,8 @@ const timeline = [
     },
     points: {
       ko: [
-        "Á¤Àû »çÀÌÆ®, SPA, ´ë½Ãº¸µå µî ´Ù¾çÇÑ Çü½ÄÀÇ À¥ ÇÁ·ÎÁ§Æ®¸¦ Á÷Á¢ ¼³°èÇÏ°í ±¸Çö",
-        "»ç¿ëÀÚ Èå¸§, È­¸é ¹Ğµµ, ÇÁ·ÎÁ§Æ® ¼Ò°³ ¹æ½Ä±îÁö Æ÷ÇÔÇÑ Æ÷Æ®Æú¸®¿À ½ÇÇè ÁøÇà"
+        "ì •ì  ì‚¬ì´íŠ¸, SPA, ëŒ€ì‹œë³´ë“œ ë“± ë‹¤ì–‘í•œ í˜•ì‹ì˜ ì›¹ í”„ë¡œì íŠ¸ë¥¼ ì§ì ‘ ì„¤ê³„í•˜ê³  êµ¬í˜„",
+        "ì‚¬ìš©ì íë¦„, í™”ë©´ ë°€ë„, í”„ë¡œì íŠ¸ ì†Œê°œ ë°©ì‹ê¹Œì§€ í¬í•¨í•œ í¬íŠ¸í´ë¦¬ì˜¤ ì‹¤í—˜ ì§„í–‰"
       ],
       en: [
         "Designed and built web projects across static sites, SPAs, and dashboards",
@@ -300,7 +300,7 @@ const timeline = [
   {
     period: "2023 - 2025",
     title: {
-      ko: "Çù¾÷ Áß½É Á¦Ç° °³¹ß °æÇè ÃàÀû",
+      ko: "í˜‘ì—… ì¤‘ì‹¬ ì œí’ˆ ê°œë°œ ê²½í—˜ ì¶•ì ",
       en: "Building collaborative product development experience"
     },
     organization: {
@@ -309,8 +309,8 @@ const timeline = [
     },
     points: {
       ko: [
-        "µğÀÚÀÌ³Ê¿Í Çù¾÷ÇÏ¸ç ±¸Çö Á¤È®µµ¿Í ÀÏÁ¤ Çö½Ç¼ºÀ» ÇÔ²² °í·ÁÇÑ °³¹ß ÁøÇà",
-        "ºü¸¥ ÇÁ·ÎÅäÅ¸ÀÌÇÎ°ú ¹İº¹ °³¼±À¸·Î ¿ä±¸»çÇ× º¯È­¿¡ À¯¿¬ÇÏ°Ô ´ëÀÀ"
+        "ë””ìì´ë„ˆì™€ í˜‘ì—…í•˜ë©° êµ¬í˜„ ì •í™•ë„ì™€ ì¼ì • í˜„ì‹¤ì„±ì„ í•¨ê»˜ ê³ ë ¤í•œ ê°œë°œ ì§„í–‰",
+        "ë¹ ë¥¸ í”„ë¡œí† íƒ€ì´í•‘ê³¼ ë°˜ë³µ ê°œì„ ìœ¼ë¡œ ìš”êµ¬ì‚¬í•­ ë³€í™”ì— ìœ ì—°í•˜ê²Œ ëŒ€ì‘"
       ],
       en: [
         "Worked closely with designers to balance implementation fidelity and delivery reality",
